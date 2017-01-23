@@ -7,13 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9102E051E2CFB3F0001EB5B /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9102E041E2CFB3F0001EB5B /* AccountVC.swift */; };
+		A9102E071E2D42AD0001EB5B /* SportPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9102E061E2D42AD0001EB5B /* SportPVC.swift */; };
+		A9102E091E2F754F0001EB5B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9102E081E2F754F0001EB5B /* SignInViewController.swift */; };
+		A9102E0B1E2F75A60001EB5B /* MeasurementHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9102E0A1E2F75A60001EB5B /* MeasurementHelper.swift */; };
+		A9102E0D1E2F75E00001EB5B /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9102E0C1E2F75E00001EB5B /* AppState.swift */; };
+		A9102E0F1E2F760F0001EB5B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9102E0E1E2F760F0001EB5B /* Constants.swift */; };
+		A9102E111E2F85370001EB5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9102E101E2F85370001EB5B /* GoogleService-Info.plist */; };
+		A9102E141E2F8C580001EB5B /* MatchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9102E121E2F8C580001EB5B /* MatchItem.swift */; };
+		A9102E151E2F8C580001EB5B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9102E131E2F8C580001EB5B /* User.swift */; };
+		A9102E171E2FD05E0001EB5B /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9102E161E2FD05E0001EB5B /* UserProfile.swift */; };
+		A9102E191E324DFA0001EB5B /* EKVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9102E181E324DFA0001EB5B /* EKVC.swift */; };
+		A9102E1D1E326E280001EB5B /* ResultPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9102E1C1E326E280001EB5B /* ResultPickerVC.swift */; };
+		A9102E1F1E3275550001EB5B /* DashBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9102E1E1E3275550001EB5B /* DashBoardVC.swift */; };
+		A937C6FD1E1E6DA100829018 /* EventsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937C6FC1E1E6DA100829018 /* EventsTVC.swift */; };
+		A937C7011E1E77F500829018 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937C7001E1E77F500829018 /* EventCell.swift */; };
+		A937C7061E1E89F600829018 /* SportsCardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937C7041E1E89F600829018 /* SportsCardStore.swift */; };
+		A937C7071E1E89F600829018 /* PetCardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937C7051E1E89F600829018 /* PetCardStore.swift */; };
+		A937C70A1E1E8A0600829018 /* Wildlife.plist in Resources */ = {isa = PBXBuildFile; fileRef = A937C7081E1E8A0600829018 /* Wildlife.plist */; };
+		A937C70B1E1E8A0600829018 /* Pets.plist in Resources */ = {isa = PBXBuildFile; fileRef = A937C7091E1E8A0600829018 /* Pets.plist */; };
+		A937C70F1E1E8AD300829018 /* PetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937C70D1E1E8AD300829018 /* PetCard.swift */; };
+		A937C7101E1E8AD300829018 /* SportsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937C70E1E1E8AD300829018 /* SportsCard.swift */; };
+		A937C7121E1E8BCB00829018 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = A937C7111E1E8BCB00829018 /* image.png */; };
+		A937C71B1E1EAFC300829018 /* MyNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937C7171E1EAFC300829018 /* MyNextViewController.swift */; };
+		A937C71C1E1EAFC300829018 /* MyPagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937C7181E1EAFC300829018 /* MyPagesViewController.swift */; };
+		A937C71D1E1EAFC300829018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937C7191E1EAFC300829018 /* ViewController.swift */; };
+		A937C71F1E1EAFE400829018 /* RevealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937C71E1E1EAFE400829018 /* RevealViewController.swift */; };
+		A937C7231E1EB05E00829018 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937C7221E1EB05E00829018 /* CardViewController.swift */; };
+		A937C7271E1EC57B00829018 /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937C7251E1EC57B00829018 /* AnimationHelper.swift */; };
+		A937C7281E1EC57B00829018 /* ViewControllerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937C7261E1EC57B00829018 /* ViewControllerProvider.swift */; };
+		A937C72A1E1EDBBF00829018 /* EventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937C7291E1EDBBF00829018 /* EventsVC.swift */; };
+		A937C7671E1FACCC00829018 /* calendar-add-128.png in Resources */ = {isa = PBXBuildFile; fileRef = A937C7661E1FACCC00829018 /* calendar-add-128.png */; };
+		A937C7691E1FD51100829018 /* SportPickerTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937C7681E1FD51100829018 /* SportPickerTVC.swift */; };
 		A9FF82A11E18F80C001464BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF82A01E18F80C001464BC /* AppDelegate.swift */; };
-		A9FF82A31E18F80C001464BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF82A21E18F80C001464BC /* ViewController.swift */; };
 		A9FF82A61E18F80C001464BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FF82A41E18F80C001464BC /* Main.storyboard */; };
 		A9FF82A81E18F80D001464BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FF82A71E18F80D001464BC /* Assets.xcassets */; };
 		A9FF82AB1E18F80D001464BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FF82A91E18F80D001464BC /* LaunchScreen.storyboard */; };
 		A9FF82B61E18F80D001464BC /* PageControl_MFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF82B51E18F80D001464BC /* PageControl_MFTests.swift */; };
 		A9FF82C11E18F80D001464BC /* PageControl_MFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF82C01E18F80D001464BC /* PageControl_MFUITests.swift */; };
+		D9E5ABC788A4590E8276895B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA7993BD8DBA9E6B002BD9B /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +66,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FA7993BD8DBA9E6B002BD9B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90176F91CAA32AEA7262F0FE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		98F253BEFC2C657F879C49B2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A9102E041E2CFB3F0001EB5B /* AccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
+		A9102E061E2D42AD0001EB5B /* SportPVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportPVC.swift; sourceTree = "<group>"; };
+		A9102E081E2F754F0001EB5B /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		A9102E0A1E2F75A60001EB5B /* MeasurementHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasurementHelper.swift; sourceTree = "<group>"; };
+		A9102E0C1E2F75E00001EB5B /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A9102E0E1E2F760F0001EB5B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A9102E101E2F85370001EB5B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A9102E121E2F8C580001EB5B /* MatchItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchItem.swift; sourceTree = "<group>"; };
+		A9102E131E2F8C580001EB5B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A9102E161E2FD05E0001EB5B /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		A9102E181E324DFA0001EB5B /* EKVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EKVC.swift; path = "View controllers/EKVC.swift"; sourceTree = "<group>"; };
+		A9102E1C1E326E280001EB5B /* ResultPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultPickerVC.swift; sourceTree = "<group>"; };
+		A9102E1E1E3275550001EB5B /* DashBoardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardVC.swift; sourceTree = "<group>"; };
+		A937C6FC1E1E6DA100829018 /* EventsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTVC.swift; sourceTree = "<group>"; };
+		A937C7001E1E77F500829018 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		A937C7041E1E89F600829018 /* SportsCardStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SportsCardStore.swift; path = Data/SportsCardStore.swift; sourceTree = "<group>"; };
+		A937C7051E1E89F600829018 /* PetCardStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PetCardStore.swift; path = Data/PetCardStore.swift; sourceTree = "<group>"; };
+		A937C7081E1E8A0600829018 /* Wildlife.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Wildlife.plist; path = Data/Wildlife.plist; sourceTree = "<group>"; };
+		A937C7091E1E8A0600829018 /* Pets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Pets.plist; path = Data/Pets.plist; sourceTree = "<group>"; };
+		A937C70D1E1E8AD300829018 /* PetCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCard.swift; sourceTree = "<group>"; };
+		A937C70E1E1E8AD300829018 /* SportsCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsCard.swift; sourceTree = "<group>"; };
+		A937C7111E1E8BCB00829018 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		A937C7171E1EAFC300829018 /* MyNextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyNextViewController.swift; path = "View controllers/MyNextViewController.swift"; sourceTree = "<group>"; };
+		A937C7181E1EAFC300829018 /* MyPagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyPagesViewController.swift; path = "View controllers/MyPagesViewController.swift"; sourceTree = "<group>"; };
+		A937C7191E1EAFC300829018 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "View controllers/ViewController.swift"; sourceTree = "<group>"; };
+		A937C71E1E1EAFE400829018 /* RevealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevealViewController.swift; sourceTree = "<group>"; };
+		A937C7221E1EB05E00829018 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardViewController.swift; path = "View controllers/CardViewController.swift"; sourceTree = "<group>"; };
+		A937C7251E1EC57B00829018 /* AnimationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
+		A937C7261E1EC57B00829018 /* ViewControllerProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerProvider.swift; sourceTree = "<group>"; };
+		A937C7291E1EDBBF00829018 /* EventsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsVC.swift; sourceTree = "<group>"; };
+		A937C7661E1FACCC00829018 /* calendar-add-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-add-128.png"; sourceTree = "<group>"; };
+		A937C7681E1FD51100829018 /* SportPickerTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportPickerTVC.swift; sourceTree = "<group>"; };
 		A9FF829D1E18F80C001464BC /* PageControl MF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PageControl MF.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FF82A01E18F80C001464BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9FF82A21E18F80C001464BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9FF82A51E18F80C001464BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9FF82A71E18F80D001464BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9FF82AA1E18F80D001464BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9E5ABC788A4590E8276895B /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +141,113 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		021E618CFA14565AEFB1CCB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98F253BEFC2C657F879C49B2 /* Pods.debug.xcconfig */,
+				90176F91CAA32AEA7262F0FE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9102E201E32755D0001EB5B /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				A937C7221E1EB05E00829018 /* CardViewController.swift */,
+				A9102E181E324DFA0001EB5B /* EKVC.swift */,
+				A9102E061E2D42AD0001EB5B /* SportPVC.swift */,
+				A9102E1C1E326E280001EB5B /* ResultPickerVC.swift */,
+			);
+			name = Cards;
+			sourceTree = "<group>";
+		};
+		A9102E211E32759F0001EB5B /* NIU */ = {
+			isa = PBXGroup;
+			children = (
+				A937C7681E1FD51100829018 /* SportPickerTVC.swift */,
+				A937C7291E1EDBBF00829018 /* EventsVC.swift */,
+				A937C71E1E1EAFE400829018 /* RevealViewController.swift */,
+				A937C7181E1EAFC300829018 /* MyPagesViewController.swift */,
+			);
+			name = NIU;
+			sourceTree = "<group>";
+		};
+		A9102E221E3275D10001EB5B /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				A937C7191E1EAFC300829018 /* ViewController.swift */,
+				A937C6FC1E1E6DA100829018 /* EventsTVC.swift */,
+				A937C7171E1EAFC300829018 /* MyNextViewController.swift */,
+				A9102E201E32755D0001EB5B /* Cards */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		A937C7021E1E89D700829018 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A937C7661E1FACCC00829018 /* calendar-add-128.png */,
+				A937C7111E1E8BCB00829018 /* image.png */,
+				A937C7041E1E89F600829018 /* SportsCardStore.swift */,
+				A937C7051E1E89F600829018 /* PetCardStore.swift */,
+				A937C7031E1E89DE00829018 /* Sets */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		A937C7031E1E89DE00829018 /* Sets */ = {
+			isa = PBXGroup;
+			children = (
+				A937C7081E1E8A0600829018 /* Wildlife.plist */,
+				A937C7091E1E8A0600829018 /* Pets.plist */,
+			);
+			name = Sets;
+			sourceTree = "<group>";
+		};
+		A937C70C1E1E8AD300829018 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9102E161E2FD05E0001EB5B /* UserProfile.swift */,
+				A9102E121E2F8C580001EB5B /* MatchItem.swift */,
+				A9102E131E2F8C580001EB5B /* User.swift */,
+				A937C70D1E1E8AD300829018 /* PetCard.swift */,
+				A937C70E1E1E8AD300829018 /* SportsCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A937C7151E1EAFA900829018 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9102E221E3275D10001EB5B /* Events */,
+				A9102E211E32759F0001EB5B /* NIU */,
+				A9102E081E2F754F0001EB5B /* SignInViewController.swift */,
+				A9102E1E1E3275550001EB5B /* DashBoardVC.swift */,
+				A9102E041E2CFB3F0001EB5B /* AccountVC.swift */,
+			);
+			name = "View controllers";
+			sourceTree = "<group>";
+		};
+		A937C7241E1EC57B00829018 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A937C7251E1EC57B00829018 /* AnimationHelper.swift */,
+				A937C7261E1EC57B00829018 /* ViewControllerProvider.swift */,
+				A9102E0A1E2F75A60001EB5B /* MeasurementHelper.swift */,
+				A9102E0C1E2F75E00001EB5B /* AppState.swift */,
+				A9102E0E1E2F760F0001EB5B /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A937C72B1E1EF30A00829018 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A937C7001E1E77F500829018 /* EventCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		A9FF82941E18F80B001464BC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +255,8 @@
 				A9FF82B41E18F80D001464BC /* PageControl MFTests */,
 				A9FF82BF1E18F80D001464BC /* PageControl MFUITests */,
 				A9FF829E1E18F80C001464BC /* Products */,
+				021E618CFA14565AEFB1CCB7 /* Pods */,
+				C0A1FCC41211BFC4B6E995A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +273,17 @@
 		A9FF829F1E18F80C001464BC /* PageControl MF */ = {
 			isa = PBXGroup;
 			children = (
+				A937C72B1E1EF30A00829018 /* View */,
+				A937C7241E1EC57B00829018 /* Helpers */,
+				A937C7151E1EAFA900829018 /* View controllers */,
+				A937C70C1E1E8AD300829018 /* Model */,
+				A937C7021E1E89D700829018 /* Data */,
 				A9FF82A01E18F80C001464BC /* AppDelegate.swift */,
-				A9FF82A21E18F80C001464BC /* ViewController.swift */,
 				A9FF82A41E18F80C001464BC /* Main.storyboard */,
 				A9FF82A71E18F80D001464BC /* Assets.xcassets */,
 				A9FF82A91E18F80D001464BC /* LaunchScreen.storyboard */,
 				A9FF82AC1E18F80D001464BC /* Info.plist */,
+				A9102E101E2F85370001EB5B /* GoogleService-Info.plist */,
 			);
 			path = "PageControl MF";
 			sourceTree = "<group>";
@@ -125,6 +306,14 @@
 			path = "PageControl MFUITests";
 			sourceTree = "<group>";
 		};
+		C0A1FCC41211BFC4B6E995A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FA7993BD8DBA9E6B002BD9B /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9FF82C51E18F80D001464BC /* Build configuration list for PBXNativeTarget "PageControl MF" */;
 			buildPhases = (
+				233AE62427915DA16B5DD892 /* Check Pods Manifest.lock */,
 				A9FF82991E18F80C001464BC /* Sources */,
 				A9FF829A1E18F80C001464BC /* Frameworks */,
 				A9FF829B1E18F80C001464BC /* Resources */,
+				E8452050F916F3F66C4158C2 /* Embed Pods Frameworks */,
+				6C289291DDAEC295FC98FE55 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +427,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A937C7671E1FACCC00829018 /* calendar-add-128.png in Resources */,
+				A9102E111E2F85370001EB5B /* GoogleService-Info.plist in Resources */,
+				A937C70A1E1E8A0600829018 /* Wildlife.plist in Resources */,
 				A9FF82AB1E18F80D001464BC /* LaunchScreen.storyboard in Resources */,
 				A9FF82A81E18F80D001464BC /* Assets.xcassets in Resources */,
+				A937C70B1E1E8A0600829018 /* Pets.plist in Resources */,
 				A9FF82A61E18F80C001464BC /* Main.storyboard in Resources */,
+				A937C7121E1E8BCB00829018 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +454,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		233AE62427915DA16B5DD892 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C289291DDAEC295FC98FE55 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8452050F916F3F66C4158C2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9FF82991E18F80C001464BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9FF82A31E18F80C001464BC /* ViewController.swift in Sources */,
+				A9102E191E324DFA0001EB5B /* EKVC.swift in Sources */,
+				A937C6FD1E1E6DA100829018 /* EventsTVC.swift in Sources */,
+				A9102E0F1E2F760F0001EB5B /* Constants.swift in Sources */,
+				A937C7101E1E8AD300829018 /* SportsCard.swift in Sources */,
+				A937C70F1E1E8AD300829018 /* PetCard.swift in Sources */,
+				A9102E1F1E3275550001EB5B /* DashBoardVC.swift in Sources */,
+				A937C7011E1E77F500829018 /* EventCell.swift in Sources */,
+				A9102E071E2D42AD0001EB5B /* SportPVC.swift in Sources */,
+				A937C71D1E1EAFC300829018 /* ViewController.swift in Sources */,
+				A937C7071E1E89F600829018 /* PetCardStore.swift in Sources */,
+				A937C71F1E1EAFE400829018 /* RevealViewController.swift in Sources */,
+				A937C7061E1E89F600829018 /* SportsCardStore.swift in Sources */,
+				A9102E0D1E2F75E00001EB5B /* AppState.swift in Sources */,
+				A9102E091E2F754F0001EB5B /* SignInViewController.swift in Sources */,
+				A937C7231E1EB05E00829018 /* CardViewController.swift in Sources */,
+				A937C71C1E1EAFC300829018 /* MyPagesViewController.swift in Sources */,
 				A9FF82A11E18F80C001464BC /* AppDelegate.swift in Sources */,
+				A937C72A1E1EDBBF00829018 /* EventsVC.swift in Sources */,
+				A9102E141E2F8C580001EB5B /* MatchItem.swift in Sources */,
+				A937C7271E1EC57B00829018 /* AnimationHelper.swift in Sources */,
+				A937C7691E1FD51100829018 /* SportPickerTVC.swift in Sources */,
+				A9102E0B1E2F75A60001EB5B /* MeasurementHelper.swift in Sources */,
+				A9102E1D1E326E280001EB5B /* ResultPickerVC.swift in Sources */,
+				A9102E151E2F8C580001EB5B /* User.swift in Sources */,
+				A937C71B1E1EAFC300829018 /* MyNextViewController.swift in Sources */,
+				A9102E171E2FD05E0001EB5B /* UserProfile.swift in Sources */,
+				A9102E051E2CFB3F0001EB5B /* AccountVC.swift in Sources */,
+				A937C7281E1EC57B00829018 /* ViewControllerProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,12 +682,13 @@
 		};
 		A9FF82C61E18F80D001464BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F253BEFC2C657F879C49B2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 447M47227T;
 				INFOPLIST_FILE = "PageControl MF/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.onomatopee.PageControl-MF";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onomatopee.AllSports-PG";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,12 +696,13 @@
 		};
 		A9FF82C71E18F80D001464BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90176F91CAA32AEA7262F0FE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 447M47227T;
 				INFOPLIST_FILE = "PageControl MF/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.onomatopee.PageControl-MF";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onomatopee.AllSports-PG";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -512,6 +785,7 @@
 				A9FF82C71E18F80D001464BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9FF82C81E18F80D001464BC /* Build configuration list for PBXNativeTarget "PageControl MFTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +794,7 @@
 				A9FF82CA1E18F80D001464BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9FF82CB1E18F80D001464BC /* Build configuration list for PBXNativeTarget "PageControl MFUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +803,7 @@
 				A9FF82CD1E18F80D001464BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
